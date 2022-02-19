@@ -1,0 +1,31 @@
+:root{
+    --TWO-REM: 2rem;
+    --GAP-2: 2rem;
+    --GRAY-BG: var(--LIGHT-GRAY);
+    --BORDER-RADIUS: var(--TWO-REM); 
+   
+}
+
+.primary-color{
+    color: var(--BASE)
+}
+
+.wrap-items{
+    flex-wrap: wrap;
+}
+
+.pad-two{
+    padding: var(--TWO-REM);
+}
+
+.gap-2{
+    gap: var(--GAP-2);
+}
+
+.gray-bg{
+    background: var(--GRAY-BG);
+}
+
+.box-shadow{
+    box-shadow: var(--BOX-SHADOW);
+}
