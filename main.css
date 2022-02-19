@@ -17,9 +17,6 @@
     box-shadow: var(--BOX-SHADOW);
 }
 
-.container > *{
-    /* margin-block: 1rem; */
-}
 
 /* this will make main always in center */
 .container > main{
