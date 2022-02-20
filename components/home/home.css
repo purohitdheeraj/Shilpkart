@@ -83,6 +83,9 @@
     margin: 0 auto;
     justify-content: center;
 }
+.card-container{
+    justify-content: center;
+}
 
 
 .type img{

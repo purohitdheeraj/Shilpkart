@@ -1,0 +1,18 @@
+
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    background: var(--LIGHT-GRAY);
+    align-items: center;
+    padding: 1rem;
+}
+
+.card .card-text :last-child{
+    margin-top: 0;
+}
+
+.quantity .input-field{
+    width: 5rem;
+    padding: 1rem;
+}
