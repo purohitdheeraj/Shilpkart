@@ -11,6 +11,27 @@
 			content="width=device-width, initial-scale=1.0"
 		/>
 		<title>Wishlist</title>
+
+      <!-- font-family-->
+		<!--Poppins-->
+		<link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+   />
+   <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+   />
+   <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+   />
+   <!-- Montserrat -->
+   <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+   />
 		
 	
 		<!-- Font Awesome Link used in Design Library -->
@@ -20,14 +41,18 @@
 		/>
 
         <link rel="stylesheet" href="../../main.css">
-        <link rel="stylesheet" href="product.css">
-	</head>
+        
+         <link rel="stylesheet" href="wishlist.css">
+      </head>
 	<body>
 		<div class="container">
          <header class="header">
             <div class="navbar">
                 <div class="navbar-left">
-                 <span>ShilpKart</span>  
+                 <a href="../../index.html">
+                  <span>ShilpKart</span>  
+                  
+                 </a>
                    
                 
                 <div class="navbar-search-container">
@@ -38,200 +63,355 @@
                 </div>
                 </div>
                 <div class="navbar-right">
-                <ul class="navbar-icons list-style-none list-display-inline wrap-items">
-                   <li><a href="#About">
-                      ABOUT US
-                      </a>
-                   </li>
-                   <li><a href="./components/auth/auth.html">
-                      <span>
-                      <i class="fas fa-user"></i>
-                      </span>
-                      </a>
-                   </li>
-                   <li><a href="./components/wishlist/wishlist.html">
-                      <span>
-                      <i class="fas fa-heart"></i>
-                      </span>
-                      </a>
-                   </li>
-                   <li><a href="./components/cart/cart.html">
-                      <span>
-                      <i class="fas fa-shopping-cart"></i>
-                      </span>
-                      </a>
-                   </li>
-                </ul>
-                </div>
+						<ul
+							class="navbar-icons list-style-none list-display-inline wrap-items"
+						>
+							<li>
+								<a href="#About">
+									ABOUT US
+								</a>
+							</li>
+							<li>
+								<a
+									href="../auth/auth.html"
+								>
+									<span
+										class="badge__container"
+									>
+										<i
+											class="fas fa-user fa-2x"
+										></i>
+										<span
+											class="badge badge-icon"
+											>2</span
+										>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a
+									href="wishlist.html"
+								>
+									<span
+										class="badge__container"
+									>
+										<i
+											class="fas fa-heart fa-2x"
+										></i>
+										<span
+											class="badge badge-icon"
+											>4</span
+										>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a
+									href="../cart/cart.html"
+								>
+									<span
+										class="badge__container"
+									>
+										<i
+											class="fas fa-shopping-cart fa-2x"
+										></i>
+										<span
+											class="badge badge-icon"
+											>3</span
+										>
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
                 </div>
         </header>
-            <main class="main">
+            <main class="flex-column">
 
-               <div class="wishlist-info">
+               <div class="wishlist-info ">
                   <h2 class="h4 text-center">Your Wishlist</h2>
 
-                  <p class="text-right">Total items: 4</p>
+                  <p class="text-center p-md">Total items: 4</p>
                </div>
                
                 <article class="gray-bg">
-                    <ul class="card-container list-style-none">
-                        
-                        <li class="card text-center">
-                           <div class="card-text">
-                              <h6 class="h6">
-                                 <a
-                                    href="#index.html"
-                                    class="card-link"
-                                    aria-describedby="vertical-card-description"
-                                    >Shri Ganesh Idol</a>
-                              </h6>
-                              <p class="p-sm text-left">
-                                 Material : Made with Oxidized Silver/available in Gold / Brass 
-                              </p>
-                              <span
-                                 class="btn-secondary"
-                                 role="button"
-                                 >
-                              Add To Cart
-                              </span>
-                              <span
-                                 class="btn-secondary-outline"
-                                 role="button"
-                                 >
-                              Buy Now
-                              </span>
-                              <small class="text-left">
-                              Price: <a href="#"><i class="fa fa-rupee"></i></a>
-                              <span class="price-tag">40,000/-</span>         
-                              </small>
-                           </div>
-                           <div class="card-cover badge-container">
-                              <img src="../../assets/shriganesh_silver.jpg" alt="shriganesh_silver" />
-                              <div class="badge badge-top">Popular
-                              </div>
-                              <div class="badge badge-icon">
-                                 <i class="far fa-heart fa-2x"></i>
-                              </div>
-                           </div>
-                        </li>
-                        <li class="card text-center">
-                           <div class="card-text">
-                              <h6 class="h6">
-                                 <a
-                                    href="#index.html"
-                                    class="card-link"
-                                    aria-describedby="vertical-card-description"
-                                    >Saraswati Mata Idol</a>
-                              </h6>
-                              <p class="p-sm text-left">
-                                 Made with Oxidized Silver/available in Gold / Brass 
-                              </p>
-                              <span
-                                 class="btn-secondary"
-                                 role="button"
-                                 >
-                              Add To Cart
-                              </span>
-                              <span
-                                 class="btn-secondary-outline"
-                                 role="button"
-                                 >
-                              Buy Now
-                              </span>
-                              <small class="text-left">
-                              Price: <a href="#"><i class="fa fa-rupee"></i></a>
-                              <span class="price-tag">50,000/-</span>         
-                              </small>
-                           </div>
-                           <div class="card-cover badge-container">
-                              <img src="../../assets/saraswatimata_silver.jpg" alt="mata saraswati" />
-                              <div class="badge badge-top">New
-                              </div>
-                              <div class="badge badge-icon">
-                                 <i class="far fa-heart fa-2x"></i>
-                              </div>
-                           </div>
-                        </li>
+                  <ul
+                  class="card-container list-style-none"
+               >
+                  <li class="card text-center">
+                     <div class="card-text">
+                        <h6 class="h6">
+                           <a
+                              href="./components/productpage/products.html"
+                              class="card-link"
+                              aria-describedby="vertical-card-description"
+                              >Shri Ganesh
+                              Idol</a
+                           >
+                        </h6>
+                        <p
+                           class="p-sm text-left"
+                        >
+                           Material : Made with
+                           Oxidized
+                           Silver/available in
+                           Gold / Brass
+                        </p>
+                        <span
+                           class="btn btn-secondary"
+                           role="button"
+                        >
+                           Add To Cart
+                        </span>
 
-                        <li class="card text-center">
-                           <div class="card-text">
-                              <h6 class="h6">
-                                 <a
-                                    href="#index.html"
-                                    class="card-link"
-                                    aria-describedby="vertical-card-description"
-                                    >Shri Ganesh Idol</a>
-                              </h6>
-                              <p class="p-sm text-left">
-                                 Material : Made with Oxidized Silver/available in Gold / Brass 
-                              </p>
+                        <span
+                           class="btn btn-secondary-outline"
+                           role="button"
+                        >
+                           Buy Now
+                        </span>
+                        <small
+                           class="text-left"
+                        >
+                           <a
+                              href="./components/productpage/products.html"
+                              ><i
+                                 class="fa fa-rupee fa-2x"
+                              ></i>
                               <span
-                                 class="btn-secondary"
-                                 role="button"
-                                 >
-                              Add To Cart
-                              </span>
-                              <span
-                                 class="btn-secondary-outline"
-                                 role="button"
-                                 >
-                              Buy Now
-                              </span>
-                              <small class="text-left">
-                              Price: <a href="#"><i class="fa fa-rupee"></i></a>
-                              <span class="price-tag">40,000/-</span>         
-                              </small>
-                           </div>
-                           <div class="card-cover badge-container">
-                              <img src="../../assets/shriganesh_silver.jpg" alt="shriganesh_silver" />
-                              <div class="badge badge-top">Popular
-                              </div>
-                              <div class="badge badge-icon">
-                                 <i class="far fa-heart fa-2x"></i>
-                              </div>
-                           </div>
-                        </li>
-                        <li class="card text-center">
-                           <div class="card-text">
-                              <h6 class="h6">
-                                 <a
-                                    href="#index.html"
-                                    class="card-link"
-                                    aria-describedby="vertical-card-description"
-                                    >Saraswati Mata Idol</a>
-                              </h6>
-                              <p class="p-sm text-left">
-                                 Made with Oxidized Silver/available in Gold / Brass 
-                              </p>
-                              <span
-                                 class="btn-secondary"
-                                 role="button"
-                                 >
-                              Add To Cart
-                              </span>
-                              <span
-                                 class="btn-secondary-outline"
-                                 role="button"
-                                 >
-                              Buy Now
-                              </span>
-                              <small class="text-left">
-                              Price: <a href="#"><i class="fa fa-rupee"></i></a>
-                              <span class="price-tag">50,000/-</span>         
-                              </small>
-                           </div>
-                           <div class="card-cover badge-container">
-                              <img src="../../assets/saraswatimata_silver.jpg" alt="mata saraswati" />
-                              <div class="badge badge-top">New
-                              </div>
-                              <div class="badge badge-icon">
-                                 <i class="far fa-heart fa-2x"></i>
-                              </div>
-                           </div>
-                        </li>
+                                 class="price-tag"
+                                 >40,000/-</span
+                              >
+                           </a>
+                        </small>
+                     </div>
+                     <div
+                        class="card-cover badge-container"
+                     >
+                        <img
+                           src="../../assets/silver/shriganesh_silver.jpg"
+                           alt="shriganesh_silver"
+                        />
+                        <div
+                           class="badge badge-top"
+                        >
+                           New
+                        </div>
+                        <div
+                           class="badge badge-icon"
+                        >  
                         
+                           <i
+                              class="fa fa-heart fa-2x"
+                           ></i>
+                        
+                           
+                        </div>
+                     </div>
+                  </li>
+                  <li class="card text-center">
+                     <div class="card-text">
+                        <h6 class="h6">
+                           <a
+                              href="./components/productpage/products.html"
+                              class="card-link"
+                              aria-describedby="vertical-card-description"
+                              >Saraswati Mata
+                              Idol</a
+                           >
+                        </h6>
+                        <p
+                           class="p-sm text-left"
+                        >
+                           Made with Oxidized
+                           Silver/available in
+                           Gold / Brass
+                        </p>
+                        <span
+                           class="btn btn-secondary"
+                           role="button"
+                        >
+                           Add To Cart
+                        </span>
+                        <span
+                           class="btn btn-secondary-outline"
+                           role="button"
+                        >
+                           Buy Now
+                        </span>
+                        <small
+                           class="text-left"
+                        >
+                           <a
+                              href="./components/productpage/products.html"
+                              ><i
+                                 class="fa fa-rupee fa-2x"
+                              ></i>
+                              <span
+                                 class="price-tag"
+                                 >50,000/-</span
+                              >
+                           </a>
+                        </small>
+                     </div>
+                     <div
+                        class="card-cover badge-container"
+                     >
+                        <img
+                           src="../../assets/silver/saraswatimata_silver.jpg"
+                           alt="mata saraswati"
+                        />
+                        <div
+                           class="badge badge-top"
+                        >
+                           New
+                        </div>
+                        <div
+                           class="badge badge-icon"
+                        >
+                           <i
+                              class="fa fa-heart fa-2x"
+                           ></i>
+                        </div>
+                     </div>
+                  </li>
 
-                     </ul>
+                  <li class="card text-center">
+                     <div class="card-text">
+                        <h6 class="h6">
+                           <a
+                              href="./components/productpage/products.html"
+                              class="card-link"
+                              aria-describedby="vertical-card-description"
+                              >Shri
+                              Venkateswara</a
+                           >
+                        </h6>
+                        <p
+                           class="p-sm text-left"
+                        >
+                           Material : Made with
+                           Oxidized
+                           Silver/available in
+                           Gold / Brass
+                        </p>
+                        <span
+                           class="btn btn-secondary"
+                           role="button"
+                        >
+                           Add To Cart
+                        </span>
+
+                        <span
+                           class="btn btn-secondary-outline"
+                           role="button"
+                        >
+                           Buy Now
+                        </span>
+                        <small
+                           class="text-left"
+                        >
+                           <a
+                              href="./components/productpage/products.html"
+                              ><i
+                                 class="fa fa-rupee fa-2x"
+                              ></i>
+                              <span
+                                 class="price-tag"
+                                 >400,000/-</span
+                              >
+                           </a>
+                        </small>
+                     </div>
+                     <div
+                        class="card-cover badge-container"
+                     >
+                        <img
+                           src="../../assets/silver/balaji_silver.jpg"
+                           alt="shribalaji_silver"
+                        />
+                        <div
+                           class="badge badge-top"
+                        >
+                           New
+                        </div>
+                        <div
+                           class="badge badge-icon"
+                        >
+                           <i
+                              class="fa fa-heart fa-2x"
+                           ></i>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="card text-center">
+                     <div class="card-text">
+                        <h6 class="h6">
+                           <a
+                              href="./components/productpage/products.html"
+                              class="card-link"
+                              aria-describedby="vertical-card-description"
+                              >Cow Idol</a
+                           >
+                        </h6>
+                        <p
+                           class="p-sm text-left"
+                        >
+                           Made with Oxidized
+                           Silver/available in
+                           Gold / Brass
+                        </p>
+                        <span
+                           class="btn btn-secondary"
+                           role="button"
+                        >
+                           Add To Cart
+                        </span>
+                        <span
+                           class="btn btn-secondary-outline"
+                           role="button"
+                        >
+                           Buy Now
+                        </span>
+                        <small
+                           class="text-left"
+                        >
+                           <a
+                              href="./components/productpage/products.html"
+                              ><i
+                                 class="fa fa-rupee fa-2x"
+                              ></i>
+                              <span
+                                 class="price-tag"
+                                 >60,000/-</span
+                              >
+                           </a>
+                        </small>
+                     </div>
+                     <div
+                        class="card-cover badge-container"
+                     >
+                        <img
+                           src="../../assets/silver/cow_silver.jpg"
+                           alt="cow silver"
+                        />
+                        <div
+                           class="badge badge-top"
+                        >
+                           New
+                        </div>
+                        <div
+                           class="badge badge-icon"
+                        >
+                           <i
+                              class="fa fa-heart fa-2x"
+                           ></i>
+                        </div>
+                     </div>
+                  </li>
+
+                  
+               </ul>
                 </article>
             </main>
             <footer class="footer text-center flex-row">
