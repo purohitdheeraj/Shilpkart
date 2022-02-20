@@ -7,22 +7,18 @@
     box-shadow: var(--BOX-SHADOW);
     background: var(--DARKEST-GRAY);
     font-family: var(--font-poppins);
-    
+    padding: 1.6rem;    
 }
-
 
 .navbar{
     margin: 0 auto;
     width: 80%;
 }
 
-.btn{
-    
-    padding: 4px;
-}
 .navbar a{
     font-size: 1.6rem;
 }
+
 
 
 .input-field{
@@ -30,6 +26,22 @@
     margin-left: auto;
     background: var(--LIGHT-GRAY);
 }
+
+.badge-icon{
+    top: -2rem;
+    right: -1.5rem;
+    background: var(--DARK-BASE);
+}
+
+.cover{
+    display: grid;
+    place-items: center;
+    position: relative;
+    border: thick dashed var(--NEUTRAL);
+    box-shadow: var(--BOX-SHADOW);
+}
+
+
 
 
 /* .hm-main */
@@ -43,9 +55,12 @@
     flex-direction: column;
 }
 
+.hm-main > .row{
+    padding: 2rem;
+}
 
-.hm-main {
-    padding: var(--TWO-REM);
+.hm-main>.new-products{
+    padding: 0;
 }
 
 /* my fav owl operator :D */
@@ -54,33 +69,34 @@
     margin-bottom: 2.4rem;
 }
 
+.row-heading{
+    margin: 2rem 0;
+    padding: 1rem;
+    border-bottom: thin solid;
+}
 
 .categories{
     margin-block-end: 0.75rem;
     padding: 0;
-    display: grid;
-    max-inline-size: 130rem;
+    max-inline-size: 100%;
     gap: var(--TWO-REM);
     margin: 0 auto;
+    justify-content: center;
 }
 
 
-
-.type{
-    position: relative;
+.type img{
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: contain;
 }
 
 .type-text{
-    position: absolute;
     color: var(--NEUTRAL);
     background: var(--DARKEST-GRAY);
     padding: 5px;
     font-weight: 600;
 }
-
-
-
-
 
 /* footer */
 .footer{

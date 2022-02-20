@@ -45,6 +45,7 @@
 
 		<link rel="stylesheet" href="main.css" />
 	</head>
+
 	<body>
 		<div class="container box-shadow">
 			<header class="header">
@@ -83,10 +84,16 @@
 								<a
 									href="./components/auth/auth.html"
 								>
-									<span>
+									<span
+										class="badge__container"
+									>
 										<i
-											class="fas fa-user"
+											class="fas fa-user fa-2x"
 										></i>
+										<span
+											class="badge badge-icon"
+											>2</span
+										>
 									</span>
 								</a>
 							</li>
@@ -94,10 +101,16 @@
 								<a
 									href="./components/wishlist/wishlist.html"
 								>
-									<span>
+									<span
+										class="badge__container"
+									>
 										<i
-											class="fas fa-heart"
+											class="fas fa-heart fa-2x"
 										></i>
+										<span
+											class="badge badge-icon"
+											>4</span
+										>
 									</span>
 								</a>
 							</li>
@@ -105,10 +118,16 @@
 								<a
 									href="./components/cart/cart.html"
 								>
-									<span>
+									<span
+										class="badge__container"
+									>
 										<i
-											class="fas fa-shopping-cart"
+											class="fas fa-shopping-cart fa-2x"
 										></i>
+										<span
+											class="badge badge-icon"
+											>3</span
+										>
 									</span>
 								</a>
 							</li>
@@ -117,130 +136,132 @@
 				</div>
 			</header>
 			<main class="hm-main gray-bg">
-				<!-- navigation dropdown
-               <section class="row">
-                  <nav class="navigation dropdown">
-                     I am dropdown navigation menu
-                  </nav>   
-               </section> -->
-
 				<!-- Slider -->
 				<section class="row">
-					<div class="slider">
+					<div class="cover">
 						<img
-							src="./assets/konark_logo.png"
-							alt=""
+							src="./assets/cover.jpg"
+							alt="cover"
 						/>
 					</div>
 				</section>
 
+				<h2 class="row-heading text-center">
+					Popular Categories
+				</h2>
 				<!-- Popular categories -->
 				<section class="row">
-					<h2 class="text-center">
-						Popular Categories
-					</h2>
-
 					<div class="categories card-container">
-						<div class="type">
-							<a href="">
-								<span class="type-text">
-									Wooden Scluptures
-								</span>
+						<div class="type flex-column">
+							<a
+								href="./components/productpage/products.html"
+							>
 								<img
-									src="./assets/konark_logo.png"
-									alt=""
+									src="./assets/wooden/jagannathji.jpg"
+									alt="jagannathji_wooden"
 								/>
 							</a>
+							<span
+								class="type-text text-center"
+							>
+								Wooden Scluptures
+							</span>
 						</div>
 
-						<div class="type">
-							<a href="">
-								<span class="type-text">
-									Brass Scluptures
-								</span>
+						<div class="type flex-column">
+							<a
+								href="./components/productpage/products.html"
+							>
 								<img
-									src="./assets/konark_logo.png"
-									alt=""
+									src="./assets/gold/shrivishnu_gold.jpg"
+									alt="shrivishnu_gold"
 								/>
 							</a>
+							<span
+								class="type-text text-center"
+							>
+								Gold Scluptures
+							</span>
 						</div>
 
-						<div class="type">
-							<a href="">
-								<span class="type-text">
-									Silver Scluptures
-								</span>
+						<div class="type flex-column">
+							<a
+								href="./components/productpage/products.html"
+							>
 								<img
-									src="./assets/konark_logo.png"
-									alt=""
+									src="./assets/Stone/monolithic_shri_ganesh.jpg"
+									alt="shriganesh_monolithic"
 								/>
 							</a>
+
+							<span
+								class="type-text text-center"
+							>
+								Monolithic Scluptures
+							</span>
 						</div>
 
-						<div class="type">
-							<a href="">
-								<span class="type-text">
-									Gold Scluptures
-								</span>
+						<div class="type flex-column">
+							<a
+								href="./components/productpage/products.html"
+							>
 								<img
-									src="./assets/konark_logo.png"
-									alt=""
+									src="./assets/marble/mata_durga_marble.jpg"
+									alt="mata_durga_marble"
 								/>
 							</a>
+							<span
+								class="type-text text-center"
+							>
+								Marble Scluptures
+							</span>
 						</div>
 
-						<div class="type">
-							<a href="">
-								<span class="type-text">
-									Monolithic Scluptures
-								</span>
+						<div class="type flex-column">
+							<a
+								href="./components/productpage/products.html"
+							>
 								<img
-									src="./assets/konark_logo.png"
-									alt=""
+									src="./assets/silver/saraswatimata_silver.jpg"
+									alt="saraswatimata_silver"
 								/>
 							</a>
+
+							<span
+								class="type-text text-center"
+							>
+								Silver Scluptures
+							</span>
 						</div>
 
-						<div class="type">
-							<a href="">
-								<span class="type-text">
-									Clay Scluptures
-								</span>
+						<div class="type flex-column">
+							<a
+								href="./components/productpage/products.html"
+							>
 								<img
-									src="./assets/konark_logo.png"
-									alt=""
+									src="./assets/brass/shivji.jpg"
+									alt="shiva_brass"
 								/>
 							</a>
-						</div>
 
-						<div class="type">
-							<a href="">
-								<span class="type-text">
-									Clay Scluptures
-								</span>
-								<img
-									src="./assets/konark_logo.png"
-									alt=""
-								/>
-							</a>
-						</div>
-
-						<div class="type">
-							<a href="">
-								<span class="type-text">
-									Clay Scluptures
-								</span>
-								<img
-									src="./assets/konark_logo.png"
-									alt=""
-								/>
-							</a>
+							<span
+								class="type-text text-center"
+							>
+								Brass Scluptures
+							</span>
 						</div>
 					</div>
 				</section>
 
-				<section class="row">
-					<article class="prd-article">
+				<!-- new stock -->
+
+				<h2 class="row-heading text-center">
+					New Products
+				</h2>
+				<section class="row new-products">
+					<article
+						class="prd-article flex-column"
+					>
 						<ul
 							class="card-container list-style-none"
 						>
@@ -264,13 +285,14 @@
 										Gold / Brass
 									</p>
 									<span
-										class="btn-secondary"
+										class="btn btn-secondary"
 										role="button"
 									>
 										Add To Cart
 									</span>
+
 									<span
-										class="btn-secondary-outline"
+										class="btn btn-secondary-outline"
 										role="button"
 									>
 										Buy Now
@@ -278,29 +300,29 @@
 									<small
 										class="text-left"
 									>
-										Price:
-										<a href="./components/productpage/products.html"
+										<a
+											href="./components/productpage/products.html"
 											><i
-												class="fa fa-rupee"
-											></i
-										>
-										<span
-											class="price-tag"
-											>40,000/-</span
-										></a>
+												class="fa fa-rupee fa-2x"
+											></i>
+											<span
+												class="price-tag"
+												>40,000/-</span
+											>
+										</a>
 									</small>
 								</div>
 								<div
 									class="card-cover badge-container"
 								>
 									<img
-										src="../../assets/shriganesh_silver.jpg"
+										src="./assets/silver/shriganesh_silver.jpg"
 										alt="shriganesh_silver"
 									/>
 									<div
 										class="badge badge-top"
 									>
-										Popular
+										New
 									</div>
 									<div
 										class="badge badge-icon"
@@ -311,7 +333,206 @@
 									</div>
 								</div>
 							</li>
-							
+							<li class="card text-center">
+								<div class="card-text">
+									<h6 class="h6">
+										<a
+											href="./components/productpage/products.html"
+											class="card-link"
+											aria-describedby="vertical-card-description"
+											>Saraswati Mata
+											Idol</a
+										>
+									</h6>
+									<p
+										class="p-sm text-left"
+									>
+										Made with Oxidized
+										Silver/available in
+										Gold / Brass
+									</p>
+									<span
+										class="btn btn-secondary"
+										role="button"
+									>
+										Add To Cart
+									</span>
+									<span
+										class="btn btn-secondary-outline"
+										role="button"
+									>
+										Buy Now
+									</span>
+									<small
+										class="text-left"
+									>
+										<a
+											href="./components/productpage/products.html"
+											><i
+												class="fa fa-rupee fa-2x"
+											></i>
+											<span
+												class="price-tag"
+												>50,000/-</span
+											>
+										</a>
+									</small>
+								</div>
+								<div
+									class="card-cover badge-container"
+								>
+									<img
+										src="./assets/silver/saraswatimata_silver.jpg"
+										alt="mata saraswati"
+									/>
+									<div
+										class="badge badge-top"
+									>
+										New
+									</div>
+									<div
+										class="badge badge-icon"
+									>
+										<i
+											class="far fa-heart fa-2x"
+										></i>
+									</div>
+								</div>
+							</li>
+
+							<li class="card text-center">
+								<div class="card-text">
+									<h6 class="h6">
+										<a
+											href="./components/productpage/products.html"
+											class="card-link"
+											aria-describedby="vertical-card-description"
+											>Shri
+											Venkateswara</a
+										>
+									</h6>
+									<p
+										class="p-sm text-left"
+									>
+										Material : Made with
+										Oxidized
+										Silver/available in
+										Gold / Brass
+									</p>
+									<span
+										class="btn btn-secondary"
+										role="button"
+									>
+										Add To Cart
+									</span>
+
+									<span
+										class="btn btn-secondary-outline"
+										role="button"
+									>
+										Buy Now
+									</span>
+									<small
+										class="text-left"
+									>
+										<a
+											href="./components/productpage/products.html"
+											><i
+												class="fa fa-rupee fa-2x"
+											></i>
+											<span
+												class="price-tag"
+												>400,000/-</span
+											>
+										</a>
+									</small>
+								</div>
+								<div
+									class="card-cover badge-container"
+								>
+									<img
+										src="./assets/silver/balaji_silver.jpg"
+										alt="shribalaji_silver"
+									/>
+									<div
+										class="badge badge-top"
+									>
+										New
+									</div>
+									<div
+										class="badge badge-icon"
+									>
+										<i
+											class="far fa-heart fa-2x"
+										></i>
+									</div>
+								</div>
+							</li>
+							<li class="card text-center">
+								<div class="card-text">
+									<h6 class="h6">
+										<a
+											href="./components/productpage/products.html"
+											class="card-link"
+											aria-describedby="vertical-card-description"
+											>Cow Idol</a
+										>
+									</h6>
+									<p
+										class="p-sm text-left"
+									>
+										Made with Oxidized
+										Silver/available in
+										Gold / Brass
+									</p>
+									<span
+										class="btn btn-secondary"
+										role="button"
+									>
+										Add To Cart
+									</span>
+									<span
+										class="btn btn-secondary-outline"
+										role="button"
+									>
+										Buy Now
+									</span>
+									<small
+										class="text-left"
+									>
+										<a
+											href="./components/productpage/products.html"
+											><i
+												class="fa fa-rupee fa-2x"
+											></i>
+											<span
+												class="price-tag"
+												>60,000/-</span
+											>
+										</a>
+									</small>
+								</div>
+								<div
+									class="card-cover badge-container"
+								>
+									<img
+										src="./assets/silver/cow_silver.jpg"
+										alt="cow silver"
+									/>
+									<div
+										class="badge badge-top"
+									>
+										New
+									</div>
+									<div
+										class="badge badge-icon"
+									>
+										<i
+											class="far fa-heart fa-2x"
+										></i>
+									</div>
+								</div>
+							</li>
 						</ul>
 
 						<p class="text-center">
@@ -324,8 +545,12 @@
 					</article>
 				</section>
 
+				<h2 class="row-heading text-left"></h2>
 				<section class="row">
-					<div class="project-info" id="About">
+					<div class="project-info flex-column" id="About">
+
+						<div class="row flex-column">
+							<h2>What is Shilpkart ?</h2>
 						<p>
 							Shilpkart is a unique platform
 							for promoting our great
@@ -335,19 +560,48 @@
 							platform to help them.
 						</p>
 
-						<ul class="styled-list">
-							Main Types of Handmade Art
-							available on Shilpkart
+						</div>
+						
+						<div class="row flex-column">
+							<h2>
+								How unique is Indian Shipkala ? 
+							</h2>
+							<p>
+								The evolution and development of
+								Indian sculpture is unique, and
+								every period of Indian history
+								is reflected through sculpture
+								that was created by master
+								artisans. Indian sculpture one
+								can connect to the historical
+								past with authenticity. New
+								research on Indus-Sarasvati
+								Valley Civilization is
+								establishing the continuity
+								between Vedic and Indus
+								Civilization.
+							</p>
+	
+						</div>
+						
 
-							<li>Wooden Art</li>
-							<li>Brass</li>
-							<li>Gold</li>
-							<li>Silver</li>
-							<li>Clay Art</li>
-							<li>Stone, Wodden Carvings</li>
-						</ul>
+						<div class="row">
+							<p>Main Types of Handmade Art
+								available on Shilpkart</p>
+							<ul class="styled-list">
+								
+	
+								<li>Wooden Art</li>
+								<li>Brass</li>
+								<li>Gold</li>
+								<li>Silver</li>
+								<li>Marble Art</li>
+								<li>Stone, Wodden Carvings</li>
+							</ul>
+	
+						</div>
+						
 
-						<p></p>
 					</div>
 				</section>
 			</main>
